@@ -1,0 +1,27 @@
+
+import hudson.model.*
+import jenkins.model.*
+
+def BRANCH = "202106-rencaianju"
+
+node {
+    echo env.BRANCH_NAME
+    stage('front Build and Install') {
+       git branch: "${BRANCH}", credentialsId: '4331c7f4-4a8a-4bb2-a193-32dadad5b0f7', url: 'http://172.16.10.101:90/gov-affairs-commerces/talent-web.git'
+       nodejs("nodejs14") {
+       sh """
+           node -v && npm -v
+           npm install -g cnpm --registry=https://registry.npm.taobao.org
+           npm i node-sass --sass_binary_site=https://npm.taobao.org/mirrors/node-sass/
+           npm run build
+       """
+       }
+       def dockerfile = "Dockerfile"
+               echo 'Starting to build docker image......'
+	       def myImage = docker.build("172.16.10.157/dev/rcaj_web:${env.BUILD_ID}",  "--no-cache=true  -f ${dockerfile} .")
+		   myImage.push()
+	 	   myImage.push('latest')
+	 	   echo "Push Image Success.................."
+	      	   echo "================================================================================================"
+   }
+}

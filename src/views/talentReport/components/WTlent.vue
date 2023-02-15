@@ -1,0 +1,109 @@
+<template>
+  <div>
+    <div class="newslist">
+      <!--<ul class="List" >-->
+      <div class="tle" style="text-align: center;margin-top: 10px;">
+        <h3>武汉工匠资格条件及政策指引</h3>
+      </div>
+      <div
+        class="content"
+        style="padding: 10px 15px 10px 15px;line-height: 30px;"
+      >
+        <p style="text-align:justify">一、资格条件</p>
+
+        <p style="text-align:justify">
+          主要面向在我市技能操作一线的杰出高技能人才，要求拥护党的路线、方针、政策，热爱祖国，遵纪守法，爱岗敬业，勤奋工作，具有良好的职业道德，具有高级技师职业资格（技能等级），为所在单位和社会作出了重大贡献，并符合下列条件之一：
+        </p>
+
+        <p style="text-align:justify">
+          1、获得“中华技能大奖”“全国技术能手”荣誉，或取得省市技能大师、首席技师、技术能手、民间工艺技能传承大师等证书，或享受国务院特殊津贴、省市政府专项津贴。
+        </p>
+
+        <p style="text-align:justify">
+          2、个人职业技能在省内同行业处于领先水平、市内同行业中处于拔尖水平，在同行业中得到广泛认可。
+        </p>
+
+        <p style="text-align:justify">
+          3、获国家、省、市级科技进步奖，并由此产生显著经济社会效益。
+        </p>
+
+        <p style="text-align:justify">
+          4、获世界技能大赛优胜奖、国家一类大赛前3名、省市级一类大赛第1名；或指导选手获世界技能大赛金银铜牌或国家一类大赛前3名。
+        </p>
+
+        <p style="text-align:justify">
+          5、具有丰富的生产实践经验，能够创造性地解决本行业（工种）关键生产技术难题，有重大发明创造或重大技术革新成果，产生重大经济社会效益；掌握绝技绝活，并在积极挖掘和传承传统工艺上作出重大贡献，有一定的社会影响。
+        </p>
+
+        <p style="text-align:justify">二、产生方式</p>
+
+        <p style="text-align:justify">
+          （一）技能竞赛。对世界技能大赛金银铜牌选手、市人社部门培养推荐的国家级一类竞赛第1名选手，直接评审认定为武汉工匠；对省市一类竞赛第1名选手，纳入武汉工匠优选对象。
+        </p>
+
+        <p style="text-align:justify">
+          （二）企业举荐。推行用人主体自主评价，企业自主开展评选活动产生的“企业首席技师”“企业技能专家”“企业技术能手”等优秀高技能人才，经单位集体研究并公示后，纳入武汉工匠后备力量。
+        </p>
+
+        <p style="text-align:justify">
+          （三）专家评审。从全市社会经济组织中，推荐一批获得省市技术能手以上荣誉的优秀高技能人才，经专家评审、实地考察等程序后，确定为武汉工匠。
+        </p>
+
+        <p style="text-align:justify">三、支持措施</p>
+
+        <p style="text-align:justify">
+          （一）奖励支持。对入选高技能人才授予“武汉工匠”荣誉证书，给予30万元一次性奖励，对以个人名字命名设立的武汉工匠工作室给予10万元建设资金补助。
+        </p>
+
+        <p style="text-align:justify">
+          （二）经济待遇。鼓励支持企业参照中高层管理人员落实武汉工匠工资福利待遇；鼓励各类企业推行年薪制和股权期权激励制度，设立特聘岗位津贴、带徒津贴等。
+        </p>
+
+        <p style="text-align:justify">
+          （三）社会地位。按照规定和程序，推荐参选党代表、人大代表、政协委员；推荐到工会、科协等群团组织中挂职和兼职，纳入党委联系专家范围。
+        </p>
+
+        <p style="text-align:justify">
+          （四）发展通道。未获得高级职称的，可直接申报参加正高级职称评审；直接推荐参加“中华技能大奖”“全国技术能手”“湖北工匠”和各级政府专家津贴以及有关科技奖、专利奖等评选活动。
+        </p>
+
+        <p style="text-align:justify">
+          （五）生活保障。优先办理其配偶和未成年子女投靠落户，对配偶、子女有就业愿望而未就业的提供职业指导、职业培训并推荐就业岗位，支持享受留汉大学生保障性住房待遇。
+        </p>
+
+        <p style="text-align:justify">四、服务管理</p>
+
+        <p style="text-align:justify">
+          （一）加大财政投入。武汉工匠所需奖励、补助和补贴资金，由市就业补助资金和人才专项资金统筹安排、合理使用。市人社局、市招才局、市财政局加强资金使用监督检查。
+        </p>
+
+        <p style="text-align:justify">
+          （二）营造良好环境。充分利用多种媒体宣传武汉工匠事迹，大力弘扬以执着专注、敬业奉献、推陈出新、精益求精为主题的现代“工匠精神”，在全社会营造“劳动光荣、技能宝贵、创造伟大”的良好氛围。
+        </p>
+
+        <p style="text-align:justify">
+          （三）建立退出机制。不再从事技能岗位工作的、调往市外工作的、退休或其他原因不宜再作为武汉工匠支持的，不再享受相关政策支持。因违法违纪行为或重大过失，给国家、集体、他人造成重大损失和严重后果的，或事后发现其申报材料弄虚作假、剽窃他人成果的，撤销武汉工匠荣誉，收回其证书、奖金，取消其相应待遇。
+        </p>
+
+        <p style="text-align:center">
+          <span style="font-size:16px"
+            ><span style="font-family:Calibri"
+              ><span style="font-family:方正仿宋_GBK"
+                ><span style="font-family:方正仿宋_GBK"
+                  ><a href="javascript:void(0);" target="_blank"
+                    ><img
+                      alt=""
+                      src="http://www.whzc.gov.cn/images/finish.png"
+                      style="height:80px; width:315px"/></a></span></span></span
+          ></span>
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style lang="less" scoped></style>
