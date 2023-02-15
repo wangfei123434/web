@@ -2,6 +2,6 @@
 npm run serve
 
 # 技术栈
-vue2
+vue
 
 
